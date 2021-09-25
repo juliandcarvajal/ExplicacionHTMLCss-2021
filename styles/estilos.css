@@ -1,0 +1,83 @@
+p{
+    color:rgb(47, 255, 127);
+}
+
+h3{
+    color:blue;
+}
+
+a{
+    background-color: green;
+}
+
+#parrafo3{
+    color:blue;
+
+}
+
+.TextoGris{
+    color:gray;
+}
+
+.TextoNegro{
+    color:black;
+}
+
+.fondoAmarillo{
+    background-color: yellow;
+}
+
+.fondoAzul{
+    background-color: blue;
+}
+
+.textoGrandeNegrita{
+    font-size: x-large;
+    font-weight: 900;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+
+}
+
+.imagenPequeña{
+    height: 200px;
+}
+
+.contenedorConMargen{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid red;
+    padding: 10px;
+
+}
+
+.contenedorDivsGrid{
+    border: 2px solid green;
+    display: grid;
+    grid-column: auto;
+    grid-template-columns: 33% 33% 34%;
+    margin: 20px;
+        flex-direction: column;
+
+    
+}
+
+.divTest{
+    border: 1px solid red;
+    height: 50px;
+
+}
+
+.contenedorDivsFlex{
+    border: 2px solid green;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
